@@ -1,10 +1,10 @@
 param
 (
-    [System.String]$sourceFile = 'C:\Users\kpawan\OneDrive - Itron\Documents\sampleJson.json',
-    [System.String]$accountName  = 'itrontestcosmo',
-    [System.String]$connectionKey = 'YkeIN81Adc8jFlSjJBUL8a0waJXXCClgnlDEhp7fA75SszpVCkXFwCQSu6B5OQKh2oZUB4zeUVkxRtFswVEycQ==',
+    [System.String]$sourceFile = 'C:\Users\kpawan\OneDrive\Documents\sampleJson.json',
+    [System.String]$accountName  = 'testcosmo',
+    [System.String]$connectionKey = '',
     [System.String]$collectionName = 'Tenant9',
-    [System.String]$databaseName = 'tenantItronDB'
+    [System.String]$databaseName = 'tenantDB'
 )
  
 begin
